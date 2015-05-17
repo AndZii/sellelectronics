@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'page/home'
 
-  get 'page/about'
+  get 'where-sell-electronics-nyc' => 'page#about', as: :about
 
   get 'how-to-sell-electronics-nyc' => 'page#how_it_works', as: :how
 

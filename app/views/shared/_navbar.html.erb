@@ -1,0 +1,16 @@
+
+<div class="home center-block">
+  <h3>SellElectronics.NYC</h3>
+  <% if controller.action_name == 'home' %>
+      <%= link_to 'How It Works', how_path,   :class => "btn-super" %>
+  <% else %>
+      <%= link_to 'Back To Main', root_path,   :class => "btn-super" %>
+   <% end %>
+  <a href="" class="btn-super center-block"> <i class="fa fa-map-marker"> </i> Our Locations</a>
+
+  <a href="" class="btn-super visible-xs center-block"> <i class="fa fa-phone"> </i> Call Now</a>
+
+  <%= link_to 'About Us', about_path, :class => 'btn-super'%>
+  <h2>The moust easy and safety way to sell and buy items in NYC!</h2>
+  <h2 class="hidden-xs">You can call us right now +1 (718) 846-1600</h2>
+</div>
