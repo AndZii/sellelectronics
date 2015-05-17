@@ -1,0 +1,221 @@
+
+head, body {
+    font-family:  Arial;
+    background: white;
+}
+
+.social a {
+    font-size: 240%;
+    text-decoration: none;
+    color: #d5d5d5;
+}
+
+.social a:not(:first-child) {
+    margin-left: 30px;
+}
+
+
+a.navbar-color, ul > li a.navbar-color {
+
+    color: black;
+    font-size: 180%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+ul > li a.navbar-color:hover {
+    color: rgb(230, 202, 62);
+    text-decoration: none;
+}
+
+a.navbar-brand {
+    font-size: 170%;
+}
+
+.logo  a {
+    font-size: 220%;
+    color: black;
+    margin: 20px;
+}
+
+footer {
+    padding-top: 50px;
+    font-family: 'Pacifico', cursive;
+    height: 300px;
+    background: url("/footer.png");
+}
+.copywrite {
+    margin-top: 75px;
+    color: #d5d5d5;
+}
+
+.copywrite h6 {
+    font-size: 140%;
+}
+
+a {
+    text-decoration: none;
+    transition: color .4s;
+}
+
+a:hover {
+    color: rgb(230, 202, 62);
+    text-decoration: none;
+}
+
+.home {
+    height: 500px;
+    background: url("/font.jpg") no-repeat bottom;
+    background-size: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+
+
+}
+
+.home > h3 {
+    font-size: 260%;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.home > a.btn-super, .home > h3 {
+    font-family: 'Pacifico', cursive;
+
+}
+
+.home a {
+    margin-top: 20px;
+
+}
+
+ h1 {
+
+     margin: 0px;
+}
+
+.act {
+    text-align: center;
+    background: white;
+    margin: 20px;
+}
+
+
+
+@media (max-width: 767px) {
+    .home {
+        background: url("/font.jpg") no-repeat bottom;
+        height: 600px;
+    }
+
+    ul > li a.navbar-color {
+      margin: 12px;
+        font-size: 200%;
+    }
+
+    a.navbar-color {
+        font-size: 180%;
+    }
+
+}
+
+.icon-bar{
+    color: black;
+    border-color: black;
+    background-color: black;
+}
+
+h1  {
+    color: #dddddd;
+    padding-top: 40px;
+
+}
+ul > li a.navbar-color {
+    font-size: 120%;
+}
+
+.button-sell {
+    height: 40px;
+    width: 100px;
+    background: #96ef54;
+}
+
+.super-logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 220%;
+}
+
+a.btn {
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+ .btn-super {
+     padding-top: 7px;
+     text-align: center;
+     text-height: 60px;
+    height: 60px;
+    width: 260px;
+    background: rgba(48, 48, 48, 0.46);
+     display: inline-block;
+     font-size: 220%;
+     color: #e2e2e2;
+     border-radius: 7px;
+     border: 1px solid #dddddd;
+}
+
+ .btn-buy {
+
+ }
+
+h2  {
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.insideinfo {
+    font-size: 200%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.glyphicon {
+    font-size: 140%;
+}
+
+.mainh h1 {
+    text-align: center;
+    color: black;
+    padding: 0px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.infogroup h2 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 220%;
+    text-decoration: underline;
+}
+
+.infogroup {
+    margin: 10px;
+}
+.infogroup p {
+    font-size: 180%;
+    text-align: justify;
+    text-indent: 20px;
+}
