@@ -22,12 +22,20 @@
     </div>
 
     <div class="text-center">
-      <h2>Manhattan Location Suite 302</h2>
+
+
+      <h2 class="map">Manhattan Location Suite 302</h2>
+      <%=  link_to(about_path, :class => "btn-super center-block map-button") do %>
+          <i class="fa fa-map-marker"> </i> Full Screen
+      <% end %>
       <p><iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=71%20West%2047th%20Street%2C%20New%20York%2C%20NY%2C%20United%20States%20suite%20302&key=AIzaSyAG1JHhDDpKIublp2o1A107YHnRFEGQa7E"></iframe>
       </p>
     </div>
     <div class="text-center">
-      <h2>Queens Location</h2>
+      <h2 class="map">Queens Location</h2>
+      <%=  link_to(about_path, :class => "btn-super center-block map-button") do %>
+          <i class="fa fa-map-marker"> </i> Full Screen
+      <% end %>
       <p><iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=8710%20Lefferts%20Blvd%2C%20Richmond%20Hill%2C%20NY%2C%20United%20States&key=AIzaSyAG1JHhDDpKIublp2o1A107YHnRFEGQa7E"></iframe>
       </p>
     </div>

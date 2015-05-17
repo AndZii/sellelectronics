@@ -227,3 +227,13 @@ h2  {
     text-align: center;
     background: rgba(255, 0, 0, 0.11);
 }
+
+.map {
+    color: black;
+    font-family: Arial;
+}
+
+.map-button {
+    color: black;
+  margin-bottom: 20px;
+}

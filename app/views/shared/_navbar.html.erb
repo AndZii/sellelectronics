@@ -6,7 +6,12 @@
   <% else %>
       <%= link_to 'Back To Main', root_path,   :class => "btn-super" %>
    <% end %>
-  <a href="" class="btn-super center-block"> <i class="fa fa-map-marker"> </i> Our Locations</a>
+
+
+ <%=  link_to(about_path, :class => "btn-super center-block") do %>
+      <i class="fa fa-map-marker"> </i> Our Locations
+  <% end %>
+
 
   <a href="" class="btn-super visible-xs center-block"> <i class="fa fa-phone"> </i> Call Now</a>
 
