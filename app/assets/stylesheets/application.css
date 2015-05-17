@@ -1,5 +1,6 @@
 
 head, body {
+    font-family: 'Lobster', cursive;
     font-family:  Arial;
     background: white;
 }
@@ -83,8 +84,7 @@ a:hover {
 }
 
 .home > a.btn-super, .home > h3 {
-    font-family: 'Pacifico', cursive;
-
+    font-family: 'Lobster', cursive;
 }
 
 .home a {
@@ -177,6 +177,7 @@ h2  {
     color: white;
     font-size: 150%;
     text-decoration: none;
+    font-family: 'Lobster', cursive;
 }
 
 .insideinfo {
