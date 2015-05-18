@@ -174,7 +174,7 @@ a.btn {
 
  }
 
-h2  {
+nav  h2  {
     color: white;
     font-size: 150%;
     text-decoration: none;
@@ -236,4 +236,26 @@ h2  {
 .map-button {
     color: black;
   margin-bottom: 20px;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.main p {
+    text-indent: 60px;
+}
+
+.super-form {
+    width: 350px;
+    text-align: center;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.super-note {
+    font-size: 140%;
+    color: green;
 }

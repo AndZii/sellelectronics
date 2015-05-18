@@ -7,4 +7,7 @@ class PageController < ApplicationController
 
   def how_it_works
   end
+  def sell
+    @item = Item.new
+  end
 end

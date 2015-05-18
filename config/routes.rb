@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
+  resources :items
   get 'page/home'
 
   get 'where-sell-electronics-nyc' => 'page#about', as: :about
 
   get 'how-to-sell-electronics-nyc' => 'page#how_it_works', as: :how
 
+  get 'sell-electronics-online' => 'page#sell', as: :sell
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
