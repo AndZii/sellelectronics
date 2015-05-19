@@ -21,9 +21,5 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter: mysql2
-  encoding: utf8
-  database: sellelec_sellelectronics
-  username: sellelec_user
-  password: webuygoods
-  host: localhost
+  <<: *default
+  database: db/development.sqlite3
