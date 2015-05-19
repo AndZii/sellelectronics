@@ -23,7 +23,7 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: your_db
-  username: root
-  password: your_pass
+  database: sellelec_sellelectronics
+  username: sellelec_user
+  password: webuygoods
   host: localhost

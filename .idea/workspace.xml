@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_navbar.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_navbar.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="450">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,8 +78,18 @@
       <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7368421" vertical-offset="0" max-vertical-offset="570">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.7105263" vertical-offset="0" max-vertical-offset="570">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -774,14 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
@@ -1005,10 +997,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7368421" vertical-offset="0" max-vertical-offset="570">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.7105263" vertical-offset="0" max-vertical-offset="570">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding />
         </state>
       </provider>
