@@ -259,3 +259,22 @@ nav  h2  {
     font-size: 140%;
     color: green;
 }
+
+.mostpopular a {
+    display: inline-block;
+   color: black;
+   font-size: 200%;
+   margin-top: 5px;
+    margin-bottom: 5px;
+   border: 2px solid black;
+    width: 265px;
+}
+
+.locations a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.supertext {
+    text-align: justify;
+}

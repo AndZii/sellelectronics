@@ -7,7 +7,7 @@ class PageControllerTest < ActionController::TestCase
   end
 
   test "should get about" do
-    get :about
+    get :locations
     assert_response :success
   end
 
